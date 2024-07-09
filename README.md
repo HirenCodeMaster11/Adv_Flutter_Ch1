@@ -78,3 +78,9 @@ dependencies:
 
 - ```It is a type of provider that does not do any fancy work.```
 - It just calls the provider in a new widget and delegates its build implementation to the builder.
+
+## ⚫ Provider Tree :
+
+<div align="center">
+  <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/8e9c0268-dfde-4c8b-8e9f-42794af871bc" />
+</div>
