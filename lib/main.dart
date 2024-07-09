@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Task/stepper_example.dart';
+import 'Task/stepper_example_2.dart';
 import 'Task/theme_change.dart';
 
 void main() {
@@ -19,7 +21,8 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context)=> ChangeTheme(),
+        // '/' : (context)=> ChangeTheme(),
+        '/' : (context) => StepperExample2(),
       },
     );
   }
