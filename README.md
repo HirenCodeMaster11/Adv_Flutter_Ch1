@@ -35,7 +35,7 @@ A new Flutter project.
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/stepper_example_2.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
-<h2 align="center">1. Information of Provider With State Management </h2>
+<h2 align="center">3. Information of Provider With State Management </h2>
 
 ## ⚫ State Management :
 
