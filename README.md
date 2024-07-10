@@ -1,10 +1,7 @@
 # adv_flutter_ch1
 
-A new Flutter project.
-
 <h2 align="center">1. Switch Dark Theme to Light Theme </h2>
 
-<h1 align="left"></h1>
 <div align="center">
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/e87e6727-3fd3-4f0f-9114-6be7d6232677" />
 </div>
@@ -17,9 +14,8 @@ A new Flutter project.
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/theme_change.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
-<h2 align="center">2. Stepper Widget </h2>
-
 <h1 align="left"></h1>
+<h2 align="center">2. Stepper Widget </h2>
 <div align="center">
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/7eda1dc0-813d-41ee-8d6d-74f3d9db9d64" />
 </div>
@@ -83,4 +79,18 @@ dependencies:
 
 <div align="center">
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/8e9c0268-dfde-4c8b-8e9f-42794af871bc" />
+</div>
+
+<h1 align="left"></h1>
+<h2 align="center">4. Provider & Change Theme using Provider </h2>
+<div align="center">
+  <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/3c1fee07-90bf-45ff-a74b-7040ad09ddaf" />
+</div>
+
+<h1 align="left"></h1>
+<div align="center">
+  <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/ffef6d1d-c382-44f8-b3c3-7616584954cc" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Provider%20%26%20Change%20Theme%20using%20Provider/view/Change_Theme_Using_Provider.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
