@@ -94,3 +94,11 @@ dependencies:
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Provider%20%26%20Change%20Theme%20using%20Provider/view/Change_Theme_Using_Provider.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
+
+<h1 align="left"></h1>
+<h2 align="center">4-1. Provider & Change Theme using Provider Recording </h2>
+
+<div align="center">
+ <video src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/2d31f788-8a01-4c32-b084-062b9678e63e.mp4" type="video/mp4"> 
+</video>
+</div>
