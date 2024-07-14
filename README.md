@@ -125,3 +125,25 @@ dependencies:
  <video src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/306b5da3-e329-47cc-a9e6-c1d45eb3c12d.mp4" type="video/mp4"> 
 </video>
 </div>
+
+<h1 align="left"></h1>
+<h2 align="center">6-1. One Time Intro Screen in Flutter </h2>
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/0c420a10-162b-4e8f-8152-7404bc2f413f" />
+</div>
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/aa713e4c-394c-4f5b-a41d-03604fe66431" />
+</div>
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/cf6fa26d-8650-4a5f-bcdf-a0c49a48bb8c" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/One%20Time%20Intro%20Screen%20in%20Flutter/Screen%201/Screen1.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+  <h1 align="left"></h1>
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/90ca8e57-94df-42f0-9fbe-aa5dc315c9a2" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/One%20Time%20Intro%20Screen%20in%20Flutter/HomeScreen/home.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
