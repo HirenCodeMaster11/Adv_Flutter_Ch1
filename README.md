@@ -147,3 +147,11 @@ dependencies:
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/One%20Time%20Intro%20Screen%20in%20Flutter/HomeScreen/home.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
+
+<h1 align="left"></h1>
+<h2 align="center">6-2.  One Time Intro Screen in Flutter Recording </h2>
+
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/d4c3ffb1-0bb0-4ba9-8526-c66ddc9115b0" type="video/mp4">
+</video>
+</div>
