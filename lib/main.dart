@@ -1,3 +1,5 @@
+import 'package:adv_flutter_ch1/Task/Contact%20Us%20Page%20With%20Interaction/Screen/ContactPage.dart';
+import 'package:adv_flutter_ch1/Task/Contact%20Us%20Page%20With%20Interaction/provider/ContactPageProvider.dart';
 import 'package:adv_flutter_ch1/Task/One%20Time%20Intro%20Screen%20in%20Flutter/HomeScreen/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -13,13 +15,13 @@ import 'Task/stepper_example_2.dart';
 import 'Task/theme_change.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-  bool iShows = sharedPreferences.getBool('show') ?? false;
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+  // bool iShows = sharedPreferences.getBool('show') ?? false;
 
   runApp(
     ChangeNotifierProvider(
-      create: (context) => PageProvider(iShows),
+      create: (context) => ContactPage(),
       builder: (context, child) => const MyApp(),
     ),
   );
@@ -65,7 +67,10 @@ class _MyAppState extends State<MyApp> {
       //   // '/': (context) => Screen1(),
       //   // '/home' : (context) => HomeScreen(),
       // },
-      home: Provider.of<PageProvider>(context).isShow ? HomeScreen() : Screen1(),
+      // home: Provider.of<PageProvider>(context).isShow ? HomeScreen() : Screen1(),
+      routes: {
+        '/' : (context) => ContactScreen(),
+      },
     );
   }
 }
