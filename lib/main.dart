@@ -13,10 +13,13 @@ import 'Task/stepper_example_2.dart';
 import 'Task/theme_change.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+  bool iShows = sharedPreferences.getBool('show') ?? false;
 
   runApp(
     ChangeNotifierProvider(
-      create: (context) => PageProvider(),
+      create: (context) => PageProvider(iShows),
       builder: (context, child) => const MyApp(),
     ),
   );
@@ -55,13 +58,14 @@ class _MyAppState extends State<MyApp> {
       //     ? ThemeMode.dark
       //     : ThemeMode.light,
       debugShowCheckedModeBanner: false,
-      routes: {
-        // '/' : (context)=> ChangeTheme(),
-        // '/' : (context) => Change_Theme_Using_Provider(),
-        // '/': (context) => Change_Theme_Using_Provider(),
-        '/': (context) => Screen1(),
-        // '/home' : (context) => HomeScreen(),
-      },
+      // routes: {
+      //   // '/' : (context)=> ChangeTheme(),
+      //   // '/' : (context) => Change_Theme_Using_Provider(),
+      //   // '/': (context) => Change_Theme_Using_Provider(),
+      //   // '/': (context) => Screen1(),
+      //   // '/home' : (context) => HomeScreen(),
+      // },
+      home: Provider.of<PageProvider>(context).isShow ? HomeScreen() : Screen1(),
     );
   }
 }

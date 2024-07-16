@@ -20,13 +20,14 @@ class PageProvider extends ChangeNotifier
     notifyListeners();
   }
 
-  Future<void> getData()async {
-    sharedPreferences = await SharedPreferences.getInstance();
-    isShow = sharedPreferences.getBool('show') ?? false;
-  }
+  // Future<void> getData()async {
+  //   sharedPreferences = await SharedPreferences.getInstance();
+  //   isShow = sharedPreferences.getBool('show') ?? false;
+  // }
 
-  PageProvider(){
-    getData();
+  PageProvider(iShows){
+    isShow = iShows;
+    notifyListeners();
   }
   void pageViewController(int index)
   {
@@ -34,9 +35,9 @@ class PageProvider extends ChangeNotifier
     notifyListeners();
   }
 
-  @override
-  void dispose() {
-    pageController.dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   pageController.dispose();
+  //   super.dispose();
+  // }
 }
