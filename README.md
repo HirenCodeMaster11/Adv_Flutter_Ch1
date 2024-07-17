@@ -157,17 +157,41 @@ dependencies:
 </div>
 
 <h1 align="left"></h1>
-<h2 align="center">6-2.  Contact Us Page With Interaction Recording </h2>
+<h2 align="center">7-1.  Contact Us Page With Interaction Recording </h2>
 
 <div align="center">
  <video src="https://github.com/user-attachments/assets/5baa4f27-c183-42b1-96c0-308351e4b441" type="video/mp4">
 </video>
 </div>
 <h1 align="left"></h1>
-<h2 align="center">6-2. Contact Us Page With Interaction </h2>
+<h2 align="center">7-2. Contact Us Page With Interaction </h2>
 <div align="center">
   <img height="550"  src="https://github.com/user-attachments/assets/d3dd1a36-57f4-499b-8c71-7eda4ea86a8a" />
 </div>
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Contact%20Us%20Page%20With%20Interaction/Screen/ContactPage.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+<h1 align="left"></h1>
+<h2 align="center">8-1. Photo Gallery With Biometric Authentication Recording </h2>
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/5cdb23aa-4c25-41ab-9283-24ce28cf67a1" type="video/mp4">
+</video>
+</div>
+<h1 align="left"></h1>
+<h2 align="center">8-2. Photo Gallery With Biometric Authentication </h2>
+<div align="center">
+   <img height="550"  src="https://github.com/user-attachments/assets/63e6ae48-a364-4683-9f07-8453a74f5c84" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Photo%20Gallery%20With%20Biometric%20Authentication/View/PhotoPage/PhotoPage.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+<h1 align="left"></h1>
+<h2 align="center">8-2. Photo Gallery With Biometric Authentication </h2>
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/4f7199fc-ff58-45fb-a98e-f509b0e53d98" />
+   <img height="550"  src="https://github.com/user-attachments/assets/63e6ae48-a364-4683-9f07-8453a74f5c84" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Photo%20Gallery%20With%20Biometric%20Authentication/View/HideFolder/HideScren.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
