@@ -1,11 +1,13 @@
 import 'package:adv_flutter_ch1/Task/Contact%20Us%20Page%20With%20Interaction/Screen/ContactPage.dart';
 import 'package:adv_flutter_ch1/Task/Contact%20Us%20Page%20With%20Interaction/provider/ContactPageProvider.dart';
 import 'package:adv_flutter_ch1/Task/One%20Time%20Intro%20Screen%20in%20Flutter/HomeScreen/home.dart';
+import 'package:adv_flutter_ch1/Task/Photo%20Gallery%20With%20Biometric%20Authentication/View/PhotoPage/PhotoPage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'Task/One Time Intro Screen in Flutter/Provider/Provider.dart';
 import 'Task/One Time Intro Screen in Flutter/Screen 1/Screen1.dart';
+import 'Task/Photo Gallery With Biometric Authentication/Provider/Provider.dart';
 import 'Task/Provider & Change Theme using Provider/Provider/Provider.dart';
 import 'Task/Provider & Change Theme using Provider/view/Change_Theme_Using_Provider.dart';
 import 'Task/Quotes Data Solving with Provider/Provider/QuoteProvider.dart';
@@ -18,10 +20,9 @@ Future<void> main() async {
   // WidgetsFlutterBinding.ensureInitialized();
   // SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
   // bool iShows = sharedPreferences.getBool('show') ?? false;
-
   runApp(
     ChangeNotifierProvider(
-      create: (context) => ContactPage(),
+      create: (context) => PhotoProvider(),
       builder: (context, child) => const MyApp(),
     ),
   );
@@ -69,7 +70,7 @@ class _MyAppState extends State<MyApp> {
       // },
       // home: Provider.of<PageProvider>(context).isShow ? HomeScreen() : Screen1(),
       routes: {
-        '/' : (context) => ContactScreen(),
+        '/' : (context) => PhotoScreen(),
       },
     );
   }
