@@ -142,9 +142,7 @@ dependencies:
 
 ## Description 
 
-```
-Using Provider in Flutter helps you efficiently manage and update your app’s state, such as fetching and displaying quotes. By creating a model for your data, a provider class to handle state and fetching, and then consuming the provider in your widgets, you can create a responsive and well-structured app.
-```
+```Using Provider in Flutter helps you efficiently manage and update your app’s state, such as fetching and displaying quotes. By creating a model for your data, a provider class to handle state and fetching, and then consuming the provider in your widgets, you can create a responsive and well-structured app.```
 
 
 
