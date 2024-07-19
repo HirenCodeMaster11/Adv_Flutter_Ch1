@@ -6,19 +6,20 @@
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/e87e6727-3fd3-4f0f-9114-6be7d6232677" />
 </div><br>
 
-```
-theme: ThemeData.light(),
-darkTheme: ThemeData.dark(),
-themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
-```
-
 <h1 align="left"></h1>
 <div align="center">
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/7f6f4207-abc8-4be5-be06-b22a79b11382" />
 </div>
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/theme_change.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
+</div><br>
+
+## Example :
+```
+theme: ThemeData.light(),
+darkTheme: ThemeData.dark(),
+themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
+```
 
 <h1 align="left"></h1>
 <h2 align="center">2. Stepper Widget </h2>
@@ -35,7 +36,11 @@ themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
 </div>
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/stepper_example_2.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
+</div><br>
+
+## Description
+
+```Flutter Stepper widget! This widget provides a smooth, guided experience for multi-step forms, allowing users to navigate through each step with ease. Perfect for any app requiring structured data input, the Stepper widget enhances user experience with its intuitive design and seamless functionality.```
 
 <h2 align="center">3. Information of Provider With State Management </h2>
 
@@ -107,7 +112,10 @@ dependencies:
 <div align="center">
  <video src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/2d31f788-8a01-4c32-b084-062b9678e63e.mp4" type="video/mp4"> 
 </video>
-</div>
+</div><br>
+
+## Description 
+```Explore our latest Flutter project featuring dynamic light and dark themes using the Provider package! This setup allows users to switch seamlessly between themes, enhancing accessibility and user preference. Provider ensures efficient state management, making theme changes smooth and responsive. Perfect for modern apps prioritizing user experience and customization.```
 
 
 <h1 align="left"></h1>
@@ -131,6 +139,9 @@ dependencies:
  <video src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/306b5da3-e329-47cc-a9e6-c1d45eb3c12d.mp4" type="video/mp4"> 
 </video>
 </div>
+
+
+
 
 <h1 align="left"></h1>
 <h2 align="center">6-1. One Time Intro Screen in Flutter </h2>
@@ -160,7 +171,13 @@ dependencies:
 <div align="center">
  <video src="https://github.com/user-attachments/assets/d4c3ffb1-0bb0-4ba9-8526-c66ddc9115b0" type="video/mp4">
 </video>
-</div>
+</div><br>
+
+## Description 
+
+```A one-time intro screen implemented with SharedPreferences in Flutter ensures that users only see the introductory content the first time they open the app. SharedPreferences is used to store a flag indicating whether the intro has been shown. Upon subsequent app launches, the app checks this flag and bypasses the intro if it has already been viewed, providing a smoother user experience by taking users directly to the main content.```
+
+
 
 <h1 align="left"></h1>
 <h2 align="center">7-1.  Contact Us Page With Interaction Recording </h2>
@@ -176,7 +193,23 @@ dependencies:
 </div>
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Contact%20Us%20Page%20With%20Interaction/Screen/ContactPage.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
+</div><br>
+
+## Description 
+
+### url_launcher: ^6.3.0
+
+```
+In Flutter, url_launcher is a package that allows your app to open URLs in a browser or other apps.
+
+Open Web Links: It can open web pages in the default browser.
+
+Make Phone Calls: It can dial a phone number using the phone app.
+
+Send Emails: It can open the email app with a pre-filled email.
+
+Send SMS: It can open the messaging app to send a text message.
+```
 
 <h1 align="left"></h1>
 <h2 align="center">8-1. Photo Gallery With Biometric Authentication Recording </h2>
@@ -200,4 +233,15 @@ dependencies:
 </div>
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/blob/master/lib/Task/Photo%20Gallery%20With%20Biometric%20Authentication/View/HideFolder/HideScren.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
+</div><br>
+
+
+## Description 
+
+```
+Key Points:
+- PhotoProvider: Utilizes a provider for state management.
+- AppBar: Includes a menu for hiding photos and accessing settings.
+- Photo Grid: Displays photos in a grid layout using the Wrap widget.
+- Biometric Authentication: Checks fingerprint authentication before navigating to the HideScreen.
+```
