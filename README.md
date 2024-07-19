@@ -4,7 +4,13 @@
 
 <div align="center">
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/e87e6727-3fd3-4f0f-9114-6be7d6232677" />
-</div>
+</div><br>
+
+```
+theme: ThemeData.light(),
+darkTheme: ThemeData.dark(),
+themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
+```
 
 <h1 align="left"></h1>
 <div align="center">
